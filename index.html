@@ -29,7 +29,7 @@
 	<script type="text/javascript">
 		jQuery(document).ready(function ($) {
 			var settings = {
-				sourcePath: "./player/",
+				sourcePath: "player/",
 				instanceName: "player1",
 				activePlaylist: ".playlist-video",
 				activeItem: 0,
@@ -61,7 +61,7 @@
 				playlistAnimation: '',
 				playerShadow: '',
 			}
-			var url = './player/_skin/flat.txt';
+			var url = 'player/_skin/flat.txt';
 			$("#wrapper").load(url, function () {
 				player = $(this).mvp(settings);
 			});
